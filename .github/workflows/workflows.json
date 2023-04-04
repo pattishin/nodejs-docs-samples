@@ -79,6 +79,7 @@
   "monitoring/prometheus",
   "monitoring/snippets",
   "retail",
+  "run/helloworld",
   "scheduler",
   "security-center/snippets",
   "service-directory/snippets",
