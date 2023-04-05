@@ -15,7 +15,8 @@
   "scripts": {
     "start": "node index.js",
     "test": "mocha test/app.test.js --timeout=120000 --exit",
-    "system-test": "mocha test/system.test.js --timeout=1800000 --exit"
+    "system-test": "mocha test/system.test.js --timeout=1800000 --exit",
+    "coverage": "nyc npm run test"
   },
   "dependencies": {
     "express": "^4.16.2",
@@ -30,6 +31,7 @@
   "devDependencies": {
     "got": "^11.7.0",
     "mocha": "^10.0.0",
+    "nyc": "^15.1.0",
     "short-uuid": "^4.1.0",
     "sinon": "^15.0.0",
     "supertest": "^6.0.0"
