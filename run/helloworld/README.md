@@ -1,6 +1,6 @@
 # Cloud Run Hello World Sample
 
-[![Coverage Status](https://img.shields.io/nycrc/pattishin/nodejs-docs-samples/run/helloworld?config=.nycrc&preferredThreshold=95)](https://img.shields.io/nycrc/pattishin/nodejs-docs-samples?config=.nycrc&preferredThreshold=95)
+[![Coverage Status](https://img.shields.io/nycrc/pattishin/nodejs-docs-samples?config=.nycrc&preferredThreshold=95)](https://img.shields.io/nycrc/pattishin/nodejs-docs-samples?config=.nycrc&preferredThreshold=95)
 
 This sample shows how to deploy a Hello World application to Cloud Run.
 
