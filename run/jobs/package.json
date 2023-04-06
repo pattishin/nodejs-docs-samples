@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node index.js",
     "test": "c8 mocha test/index.test.js --exit",
-    "system-test": "c8 mocha test/system.test.js --timeout=600000 --exit"
+    "system-test": "mocha test/system.test.js --timeout=600000 --exit"
   },
   "author": "Google LLC",
   "license": "Apache-2.0",

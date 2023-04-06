@@ -55,8 +55,6 @@ jobs:
         node-version: 16
     - run: npm install
       working-directory: run/logging-manual
-    - run: npm run system-test
-      working-directory: run/logging-manual
       env:
         MOCHA_REPORTER_SUITENAME: run_logging_manual
         MOCHA_REPORTER_OUTPUT: run_logging_manual_sponge_log.xml

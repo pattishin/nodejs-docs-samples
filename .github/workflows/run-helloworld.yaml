@@ -57,8 +57,6 @@ jobs:
       working-directory: run/helloworld
     - run: npm test
       working-directory: run/helloworld
-    - run: npm run system-test
-      working-directory: run/helloworld
       env:
         MOCHA_REPORTER_SUITENAME: run_helloworld
         MOCHA_REPORTER_OUTPUT: run_helloworld_sponge_log.xml

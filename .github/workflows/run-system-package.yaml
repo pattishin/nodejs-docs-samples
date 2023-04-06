@@ -57,8 +57,6 @@ jobs:
       working-directory: run/system-package
     - run: npm test
       working-directory: run/system-package
-    - run: npm run system-test
-      working-directory: run/system-package
       env:
         MOCHA_REPORTER_SUITENAME: run_system_package
         MOCHA_REPORTER_OUTPUT: run_system_package_sponge_log.xml

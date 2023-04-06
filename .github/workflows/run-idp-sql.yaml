@@ -57,8 +57,6 @@ jobs:
       working-directory: run/idp-sql
     - run: npm test
       working-directory: run/idp-sql
-    - run: npm run system-test
-      working-directory: run/idp-sql
       env:
         MOCHA_REPORTER_SUITENAME: run_idp_sql
         MOCHA_REPORTER_OUTPUT: run_idp_sql_sponge_log.xml

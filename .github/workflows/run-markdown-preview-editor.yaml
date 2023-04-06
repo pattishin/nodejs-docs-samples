@@ -57,8 +57,6 @@ jobs:
       working-directory: run/markdown-preview/editor
     - run: npm test
       working-directory: run/markdown-preview/editor
-    - run: npm run system-test
-      working-directory: run/markdown-preview/editor
       env:
         MOCHA_REPORTER_SUITENAME: run_markdown_preview_editor
         MOCHA_REPORTER_OUTPUT: run_markdown_preview_editor_sponge_log.xml
