@@ -57,10 +57,11 @@ jobs:
       with:
         node-version: 16
     - run: npm install
-      working-directory: .
-    - run: npm install
+      working-directory: scheduler
     - run: npm run build
+      working-directory: scheduler
     - run: npm test
+      working-directory: scheduler
       env:
         MOCHA_REPORTER_SUITENAME: scheduler
         MOCHA_REPORTER_OUTPUT: scheduler_sponge_log.xml
