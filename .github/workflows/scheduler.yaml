@@ -40,9 +40,6 @@ jobs:
       contents: 'write'
       pull-requests: 'write'
       id-token: 'write'
-    defaults:
-      run:
-        working-directory: scheduler
     steps:
     - uses: actions/checkout@v3.3.0
       with:
