@@ -57,6 +57,8 @@ jobs:
       working-directory: run/jobs
     - run: npm test
       working-directory: run/jobs
+    - run: npm run system-test
+      working-directory: run/jobs
       env:
         MOCHA_REPORTER_SUITENAME: run_jobs
         MOCHA_REPORTER_OUTPUT: run_jobs_sponge_log.xml

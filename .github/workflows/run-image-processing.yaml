@@ -57,6 +57,8 @@ jobs:
       working-directory: run/image-processing
     - run: npm test
       working-directory: run/image-processing
+    - run: npm run system-test
+      working-directory: run/image-processing
       env:
         MOCHA_REPORTER_SUITENAME: run_image_processing
         MOCHA_REPORTER_OUTPUT: run_image_processing_sponge_log.xml
