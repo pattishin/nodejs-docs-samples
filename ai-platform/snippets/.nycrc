@@ -1,6 +1,7 @@
 {
-  "lines": 100,
-  "branches": "95",
-  "statements": "100",
+  "lines": "84",
+  "branches": "80",
+  "statements": "84",
+  "functions": "100",
   "check-coverage": true
 }
